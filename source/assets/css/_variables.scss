@@ -1,0 +1,100 @@
+@mixin viewport($width) {
+  @if $mediaQueries {
+  @media only screen and (min-width: $width + px) {@content;}
+  }
+  @else{
+      @content;
+  }
+}
+
+@mixin highDPI() {
+    @if $mediaQueries {
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) {
+            @content;
+         }
+    } @else {}
+  }
+
+//CSS Mixins
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+     -moz-box-shadow: $shadow;
+      -ms-box-shadow: $shadow;
+       -o-box-shadow: $shadow;
+          box-shadow: $shadow;
+}
+
+@mixin box-sizing() {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+
+@mixin calc($property, $expression) {
+  #{$property}: -webkit-calc(#{$expression});
+     #{$property}: -moz-calc(#{$expression});
+       #{$property}: -o-calc(#{$expression});
+          #{$property}: calc(#{$expression});
+}
+
+/*Use these if using Google fonts where more than one property is required */
+@mixin primaryFont() {
+  font-family: Arial, sans-serif;
+}
+
+@mixin secondaryFont() {
+  font-family: Georgia, Times, sans-serif;
+}
+
+$desktop: 1024px; /*Set container and desktop variable for media queries*/
+$setSpacing: 20px; /*Set global spacing*/
+
+/*Fonts*/
+$secondaryFont: Georgia, Times, sans-serif;
+$primaryFont: Arial, sans-serif;
+
+/*Colours*/
+$green:#45c8b5;
+$purple:#7255a3;
+$red:#f00;
+/*Universal Classes*/
+.primary-colour {color:$red;}
+.secondary-colour {color:$red;}
+.primary-font {font-family:$primaryFont!important;}
+.secondary-font {font-family:$secondaryFont!important;}
+
+// @font-face {
+//     font-family: 'fontname';
+//     src: url('../fonts/fontname-webfont.eot');
+//     src: url('../fonts/fontname-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../fonts/fontname-webfont.woff') format('woff'),
+//          url('../fonts/fontname-webfont.ttf') format('truetype'),
+//          url('../fonts/fontname-webfont.svg#akzidenz-grotesk_stdbold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+.green-bg {
+  background-color:$green;
+  color:#fff;
+}
+.purple-bg {
+  background-color:$purple;
+  color:#fff;
+}
