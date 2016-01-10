@@ -38,6 +38,14 @@
           box-shadow: $shadow;
 }
 
+@mixin transitions($transitionIn, $transitionOut) {
+-webkit-transition:$transitionIn, $transitionOut;
+-moz-transition:$transitionIn, $transitionOut;
+-ms-transition:$transitionIn, $transitionOut;
+-o-transition:$transitionIn, $transitionOut;
+transition:$transitionIn, $transitionOut;
+}
+
 @mixin box-sizing() {
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
@@ -62,17 +70,16 @@
   font-family: Georgia, Times, sans-serif;
 }
 
-$desktop: 1024px; /*Set container and desktop variable for media queries*/
-$setSpacing: 20px; /*Set global spacing*/
+$desktop: 1200px; /*Set container and desktop variable for media queries*/
+$setSpacing: 12px; /*Set global spacing*/
 
 /*Fonts*/
-$secondaryFont: Georgia, Times, sans-serif;
-$primaryFont: Arial, sans-serif;
+$secondaryFont: 'Dancing Script', cursive;
+$primaryFont: 'Open Sans', sans-serif;
 
 /*Colours*/
-$green:#45c8b5;
-$purple:#7255a3;
-$red:#f00;
+$red:#A80D02;
+
 /*Universal Classes*/
 .primary-colour {color:$red;}
 .secondary-colour {color:$red;}
@@ -90,11 +97,20 @@ $red:#f00;
 //     font-style: normal;
 // }
 
-.green-bg {
-  background-color:$green;
-  color:#fff;
+*, *:before, *:after
+{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.purple-bg {
-  background-color:$purple;
-  color:#fff;
-}
+
+.vert-centre {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; 
+  }
