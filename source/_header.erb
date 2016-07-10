@@ -9,10 +9,12 @@
 	
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/lightgallery.min.css">
 	<link rel="stylesheet" href="assets/css/styles.css?v=1.0">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Dancing+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <script src="assets/scripts/modernizr-2.8.3.min.js" type="text/javascript"></script>
     
 
@@ -30,8 +32,8 @@
 <body>
 <header>  
      <!-- .container is used if there are full width elements on the page otherwise just have one wrapper -->
-    <div class="padded-content">
-        <h1>Taz Burns</h1>
+    <div class="padded-content horizontal">
+        <a href="index.html" class="h1">Taz Burns</a>
         <!-- helpful shortcute for screen readers -->
         <section class="accessibility-help hide">
             <h2 class="hide">Accessibility links</h2>
@@ -40,9 +42,52 @@
             </ul> 
         </section>
         
-        <nav>
+        <nav class="mainMenu"><!-- "nav" is an HTML5 element, you can use div if required or https://github.com/aFarkas/html5shiv to force support in ie7 and ie8 -->
+        <label for="toggleMenu" class="menuTitle" onclick="">MENU</label>
+        <!-- onclick overwrides iOS 6 and Android 4.3  --> 
+        <input type="checkbox" id="toggleMenu" />
+            <ul>
+                <li>
+                    <a href="works.html">Works</a>
+                    <ul class="submenu">
+                        <li><a href="works.html#redshoes">Red Shoes</a></li>
+                        <li><a href="works.html#fragments">Fragments</a></li>
+                        <li><a href="works.html#putnamandjoy">Putnam And Joy</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="producing.html">Other Projects</a>
+                    <ul class="submenu wide">
+                        <li><a href="producing.html#lazarus">3 Stages for Lazarus</a></li>
+                        <li><a href="producing.html#henryV">Henry V</a></li>
+                        <li><a href="producing.html#ipfc">International Performance Festival Cardiff</a></li>
+                        <li><a href="producing.html#aomori">Aomori, Aomori</a></li>
+                        <li><a href="producing.html#elephant">Who Killed the Elephant/A Dialogue</a></li>
+                        <li><a href="producing.html#performancearchive">Performance Archive</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="profile.html">Profile</a>
+                    <ul class="submenu">
+                        <li><a href="profile.html#about">About Taz</a></li>
+                        <li><a href="profile.html#workshops">Workshops</a></li>
+                        <li><a href="profile.html#crafting">Set Building / Crafting</a></li>
+                        <li><a href="profile.html#contact">Contact</a></li>
+                        <li><a href="profile.html#friends">Friends of Taz</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="profile.html#contact">Contact</a>
+                </li>
+                <li class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/TazBurnsSilhouettes"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                        <li><a href="https://www.instagram.com/tazamaniac/ "><i class="fa fa-instagram fa-2x"></i></a></li>
+                        <li><a href="https://twitter.com/tazamaniac"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
-    
     </div>
 </header>
 

@@ -9,10 +9,12 @@
 	
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/lightgallery.min.css">
 	<link rel="stylesheet" href="assets/css/styles.css?v=1.0">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Dancing+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <script src="assets/scripts/modernizr-2.8.3.min.js" type="text/javascript"></script>
     
 
@@ -30,8 +32,8 @@
 <body>
 <header>  
      <!-- .container is used if there are full width elements on the page otherwise just have one wrapper -->
-    <div class="padded-content">
-        <h1>Taz Burns</h1>
+    <div class="padded-content horizontal">
+        <a href="index.html" class="h1">Taz Burns</a>
         <!-- helpful shortcute for screen readers -->
         <section class="accessibility-help hide">
             <h2 class="hide">Accessibility links</h2>
@@ -40,52 +42,112 @@
             </ul> 
         </section>
         
-        <nav>
+        <nav class="mainMenu"><!-- "nav" is an HTML5 element, you can use div if required or https://github.com/aFarkas/html5shiv to force support in ie7 and ie8 -->
+        <label for="toggleMenu" class="menuTitle" onclick="">MENU</label>
+        <!-- onclick overwrides iOS 6 and Android 4.3  --> 
+        <input type="checkbox" id="toggleMenu" />
+            <ul>
+                <li>
+                    <a href="works.html">Works</a>
+                    <ul class="submenu">
+                        <li><a href="works.html#redshoes">Red Shoes</a></li>
+                        <li><a href="works.html#fragments">Fragments</a></li>
+                        <li><a href="works.html#putnamandjoy">Putnam And Joy</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="producing.html">Other Projects</a>
+                    <ul class="submenu wide">
+                        <li><a href="producing.html#lazarus">3 Stages for Lazarus</a></li>
+                        <li><a href="producing.html#henryV">Henry V</a></li>
+                        <li><a href="producing.html#ipfc">International Performance Festival Cardiff</a></li>
+                        <li><a href="producing.html#aomori">Aomori, Aomori</a></li>
+                        <li><a href="producing.html#elephant">Who Killed the Elephant/A Dialogue</a></li>
+                        <li><a href="producing.html#performancearchive">Performance Archive</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="profile.html">Profile</a>
+                    <ul class="submenu">
+                        <li><a href="profile.html#about">About Taz</a></li>
+                        <li><a href="profile.html#workshops">Workshops</a></li>
+                        <li><a href="profile.html#crafting">Set Building / Crafting</a></li>
+                        <li><a href="profile.html#contact">Contact</a></li>
+                        <li><a href="profile.html#friends">Friends of Taz</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="profile.html#contact">Contact</a>
+                </li>
+                <li class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/TazBurnsSilhouettes"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                        <li><a href="https://www.instagram.com/tazamaniac/ "><i class="fa fa-instagram fa-2x"></i></a></li>
+                        <li><a href="https://twitter.com/tazamaniac"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
-    
     </div>
 </header>
 
-<div id="main-content">	<div class="wrapper-container with-equal-height">
+<div id="main-content"><section class="hero-slide">
+	<div class="wrapper-container with-equal-height hero-wrapper">
 		<div class="wrapper-50 no-margin-bottom top-left hero">
-			<div class="overlay vert-centre orange">
+			<div class="overlay vert-centre">
 				<div class="padded-content">
-					<a href="#"><h2>Performances</h2></a>
-					<!-- <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed commodo dolor, ac dapibus enim. Duis tincidunt est at sapien pharetra, et congue odio viverra.</p>
-					<p>Suspendisse metus nisl, fringilla sed laoreet vitae, vestibulum at orci. Pellentesque elit mauris, finibus sitetur lectus, ac tempor elit. Nulla non euismod elit. Sed eu sagittis arcu.</p> -->
+					<a href="works.html"><h2>Works</h2></a>
 				</div>
 			</div>
 		</div>
 		<div class="wrapper-50 no-margin-bottom top-right hero">
-			<div class="overlay vert-centre green">
+			<div class="overlay vert-centre">
 				<div class="padded-content">
-					<a href="#"><h2>Projects</h2></a>
-					<!-- <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed commodo dolor, ac dapibus enim. Duis tincidunt est at sapien pharetra, et congue odio viverra.</p>
-					<p>Suspendisse metus nisl, fringilla sed laoreet vitae, vestibulum at orci. Pellentesque elit mauris, finibus sit amet enim sed, faucibus cursus neque. Curabitur gravida orci sit amet enim rhoncus viverra. Suspendisse gravida massa eu justo tincidunt porta. Maecenas tempus accumsan ante at sodales. Proin nec consectetur lectus, ac tempor elit. Nulla non euismod elit. Sed eu sagittis arcu.</p> -->
+					<a href="producing.html"><h2>Producing</h2></a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="wrapper-container with-equal-height">
-	<div class="wrapper-50 no-margin-bottom bottom-left hero">
-		<div class="overlay vert-centre green">
-			<div class="padded-content">
-				<a href="#"><h2>Silhouettes</h2></a>
-				<!-- <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed commodo dolor, ac dapibus enim. Duis tincidunt est at sapien pharetra, et congue odio viverra.</p>
-				<p>Suspendisse metus nisl, fringilla sed laoreet vitae, vestibulum at orci. Pellentesque elit mauris, finibus sitetur lectus, ac tempor elit. Nulla non euismod elit. Sed eu sagittis arcu.</p> -->
+	<div class="wrapper-container with-equal-height hero-wrapper">
+		<div class="wrapper-50 no-margin-bottom bottom-left hero">
+			<div class="overlay vert-centre">
+				<div class="padded-content">
+					<a href="http://www.roving-artist.com/taz" target="new"><h2>Silhouettes</h2></a>
 			</div>
 		</div>
 	</div>
 	<div class="wrapper-50 no-margin-bottom bottom-right hero">
-		<div class="overlay vert-centre orange">
+		<div class="overlay vert-centre">
 			<div class="padded-content">
-				<a href="#"><h2>Profile</h2></a>
-				<!-- <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed commodo dolor, ac dapibus enim. Duis tincidunt est at sapien pharetra, et congue odio viverra.</p>
-				<p>Suspendisse metus nisl, fringilla sed laoreet vitae, vestibulum at orci. Pellentesque elit mauris, finibus sit amet enim sed, faucibus cursus neque. Curabitur gravida orci sit amet enim rhoncus viverra. Suspendisse gravida massa eu justo tincidunt porta. Maecenas tempus accumsan ante at sodales. Proin nec consectetur lectus, ac tempor elit. Nulla non euismod elit. Sed eu sagittis arcu.</p> -->
+				<a href="profile.html"><h2>Profile</h2></a>
 			</div>
 		</div>
 	</div>
 </div>
+</section>
+<section class="wrapper-container">
+	<div class="container">
+		<div class="wrapper-container double-margin-top double-margin-bottom">
+			<div class="wrapper-50">
+				<div class="padded-content">
+					<h2>Artistic Statement</h2>
+					<p><em>As an artist, my performance and research interests have a focus on intercultural exchange, globalisation and history. In a world where the speed and volume at which people migrating is increasing (for work, pleasure or out of necessity), we are living in an age where trading cultures, ideas and influence has become something of the everyday.Today, boarders between countries are simultaneously breaking down with the aid of the internet, while ever-stringent laws on migration in the current climate is making passing between nations more difficult. Inspired by my own mixed family heritage (British and Japanese), I imagine all the other people in the world who can't align themselves to one nation because of mixed heritages or displacement, and contemplate how this affects us. I am interested in exploring divisions between rich traditional cultures, and what happens to them outside their own boarders. When we take an interest in another culture, where the line between misappropriation and creating something new? How do histories of the world (both local and global) have an impact on our lives today? How does our connection with others help us to understand ourselves?</em></p>
+					<p><em>During performances I aim to reflect these questions in my interaction with my audience. I like to feel connected with them, while also being aware of the difference between performer and spectator, and so reflecting the binaries of being connected/disconnected, local/global, near by/far apart.</em></p>
+				</div>
+			</div>
+			<div class="wrapper-50">
+				<div class="padded-content">
+					<figure>
+						<img src="assets/images/aboutTazFayStevens.jpg">
+						<figcaption>
+							Photograph by Fay Stevens
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 </div>
 <footer>
  	<div class="padded-content">&copy; Taz Burns</div>
@@ -95,12 +157,32 @@
 <script>window.jQuery || document.write('<script src="assets/scripts/jquery-1.11.3.min.js"><\/script>')</script>
 
 <!-- For any custom JS -->
+<script src="assets/scripts/lightgallery.min.js" type="text/javascript"></script>
+<script src="assets/scripts/jquery.bxslider.min.js?v=1.0" type="text/javascript"></script>
 <script src="assets/scripts/custom.js?v=1.0" type="text/javascript"></script>
 
 <script>
 $(function() {
+	$(".lightbox").lightGallery({
+		download:false
+	});
+	var sliderSets = $('.sliderWrap');
+	$(sliderSets).each(function() {
+	  var targetSlider = "#" + $(this).children('.bxslider').attr('id');
+	  var targetPager = "#" + $(this).children('.bx-pager').attr('id');
+	  initSliders(targetSlider, targetPager);
+	});
 
-})
+	function initSliders(targetSlider, targetPager) {
+	  $(targetSlider).bxSlider({
+	    pagerCustom: targetPager,
+	    captions: true
+	  });
+	  $(targetSlider).lightGallery({
+	  	download:false
+	  });
+	}
+});
 </script>
 
 

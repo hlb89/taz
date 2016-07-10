@@ -74,10 +74,12 @@ $desktop: 1200px; /*Set container and desktop variable for media queries*/
 $setSpacing: 12px; /*Set global spacing*/
 
 /*Fonts*/
-$secondaryFont: 'Dancing Script', cursive;
-$primaryFont: 'Open Sans', sans-serif;
+$secondaryFont:'Open Sans', sans-serif;
+$primaryFont:'Open Sans', sans-serif;
 
 /*Colours*/
+$black:#202020;
+$offWhite:#efefef;
 $red:#A80D02;
 
 /*Universal Classes*/
@@ -114,3 +116,19 @@ $red:#A80D02;
     -webkit-align-items: center;
     align-items: center; 
   }
+
+  .slide.grey {
+    background-color: #020202;
+    // background-image: url("../images/bg.jpg");
+    h1,h2,h3,h4,p,ul,li,a {
+      color:#ffffff;
+      }
+    }
+
+ .slide.white {
+    background-color: #efefef;
+    // background-image: url("../images/bg2.jpg");
+    // h1,h2,h3,h4,p,ul,li,a {
+    //   color:#ffffff;
+    //   }
+    }   

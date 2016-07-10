@@ -3,38 +3,75 @@ body {
 	font-family:$primaryFont;
 	line-height:1.4;
 	font-size:16px;
-	display: flex;
-    width: 100%;
-    flex-direction: column;
-    height: 100%;
-    align-items: stretch;
-     div {
-		flex: 1;
-    	align-items: stretch;
+	@include viewport(768) {
+		display: block;
+	    width: 100%;
+	    height: 100%;
 	}
 }
 
 html, body {
-	width:100%;
-	height:100%;
+	@include viewport(600) {
+	    width: 100%;
+	    height: 100%;
+	}
 }
 
+
 header, footer {
-	background-color:#020202;
-	color:#efefef;
+	background-color:$black;
+	color:$offWhite;
 	float:left;
 	width:100%;
+	a {color:$offWhite;}
+}
+
+header {
+	background-color:$black;
+	position:fixed;
+	z-index:10;
+	@include viewport(768) {
+		top:0;
+		background-color:rgba(80, 80, 80, 0.8);
+	}
+	.h1 {
+		float: left;
+		width: 60%;
+		font-size:24px;
+		position:absolute;
+		left:4%;
+		@include viewport(768) {
+			width:25%;
+			left:0;
+			font-size:38px;
+			position:relative;
+		}
+		@include viewport(1200) {
+			width:20%;
+		}
+	}
+
+	.padded-content {
+		padding:0;
+		@include viewport(768) {
+			padding: 4%;
+		    float: left;
+		    width: 100%;
+		}
+	}
 }
 
 
 /*Typograpghy Classes*/
 h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
 	font-family:$secondaryFont;
+	font-weight:300;
 } 
 
 h1, .h1 {
-	font-size:40px;
 	padding:0 0 $setSpacing /2 0;
+	font-size:40px;
+
 }
 
 h2, .h2 {
@@ -53,28 +90,121 @@ h4, .h4 {
 }
 
 p, ul, ol {
-	padding:0 0 $setSpacing /2 0;
+	padding:0 0 $setSpacing 0;
 	widows: 2;
+	line-height:1.6em;
+}
+
+ul, ol {
+	padding-left:20px;
+	list-style-type: circle;
+}
+a {
+	color:$black;
+	text-decoration:none;
+	font-weight:700;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	word-break: break-word;
+}
+
+em {
+	font-style:italic;
+}
+
+figure {
+	max-width:400px;
+}
+
+
+
+video {
+	max-width:100%;
+	margin-bottom:$setSpacing;
 }
 
 #main-content {
-	display: flex;
-    width: 100%;
-    flex-direction: column;
-    height: 100%;
-    align-items: stretch;
-	 > div {
-		  flex: 1;
-		  align-items: stretch;
-	} 
+	display: block;
+	@include viewport(600) {
+	    width: 100%;
+	    height: 100%;
+	}	  
+	@include viewport(768) {
+		margin-top: 59px;
+	}
+
+}
+.hero-slide {
+	@include viewport(600) {
+	    width: 100%;
+	    height: 100%;
+	}
+}
+
+.hero-wrapper {
+	@include viewport(600) {
+		height:50%;
+	}
 }
 
 .hero {
 	background-size:cover;
 	position:relative;
 	text-align:center;
+	background-position:top;
+	height:300px;
+	@include viewport(600) {
+		height:100%;
+	}
 	h2 {
 		font-size:50px;
+	}
+	a {
+		color:#ffffff;
+	}
+}
+
+.secondary-hero {
+	background-size:cover;
+	position:relative;
+	background-position:top;
+	background-position:center;
+	height: 400px;
+	padding-top:70px;
+	@include viewport(600) {
+		height:700px;
+	}
+	h1  {
+		color:#ffffff;
+		@include viewport(768) {
+			font-size: 70px;
+		}
+	}
+
+	.container, .padded-content {
+		height: 100%;
+	}
+
+	.padded-content {
+		display: flex;
+		* {
+			align-self:center;
+		}
+	}
+}
+
+.slide {
+	float:left;
+	width:100%;
+	figure {
+		max-width:100%;
+		figcaption {
+			text-align: center;
+		}
+	}
+	h2 {
+		padding-top:105px;
+		margin-top: -105px;
 	}
 }
 
@@ -86,7 +216,7 @@ p, ul, ol {
 	left:0;
 	right:0;
 	bottom:0;
-	background-color:rgba(0,0,0,0.5);
+	background-color:rgba(0,0,0,0.1);
 	&.orange {
 		background-color:rgba(255, 153, 0,0.1);
 	}
@@ -97,23 +227,65 @@ p, ul, ol {
 }
 
 .top-left {
-	background-image:url('../images/TazJamieT.JPG');
+	background-image:url('../images/fragments/11.jpg');
 }
 
 .top-right {
-	background-image:url('../images/taz2.jpg');
+	background-image:url('../images/producing/02HenryV.jpg');
 }
 
 .bottom-left {
-	background-image:url('../images/taz2.jpg');
+	background-image:url('../images/NicholasBurns.jpg');
 }
 
 
 .bottom-right {
-	background-image:url('../images/TazJamieT.JPG');
+	background-image:url('../images/profile.jpg');
+}
+
+li.social {
+	float:right !important;
+	ul {
+		padding:0 3%;
+		@include viewport(768) {
+			padding:0;
+		}
+		li {
+			display: inline-block;
+			width:auto;
+			border-top:0;
+			padding:5px;
+			background:none !important;
+			@include viewport(768) {
+				padding:0 5px;
+			}
+
+			a:hover {
+				background:none;
+				i {
+					color:#ccc;
+				}
+			}
+			i {
+				font-size: 1.6em;
+				@include viewport(1000) {
+					font-size: 2em;
+				}
+			}
+		}
+	}
 }
 
 
+.lightbox {
+	text-align:center;
+	 img {
+		max-width:400px;
+		width: 100%;
+		margin:auto;
+		margin-bottom: $setSpacing;
+	}
+}
 /*Form Styles*/
 /*
 :required {

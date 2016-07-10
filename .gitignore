@@ -22,3 +22,7 @@ Gemfile.lock
 #Sublime workspace files
 .sublime-workspace
 .sublime-project
+
+#ignore videos
+.mp4
+.mpeg
