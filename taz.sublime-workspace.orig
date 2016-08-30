@@ -1,0 +1,1413 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"ta",
+				"targetPager"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"backgroud",
+				"background-image"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"image",
+				"imageIndex"
+			],
+			[
+				"ima",
+				"imageIndex"
+			],
+			[
+				"se",
+				"sectionBreak"
+			],
+			[
+				"sec",
+				"sectionBreak"
+			],
+			[
+				"ita",
+				"italicFont"
+			],
+			[
+				"wrapper",
+				"wrapper-66"
+			],
+			[
+				"centr",
+				"centre-block"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"bl",
+				"blueBlack"
+			],
+			[
+				"it",
+				"italicFont"
+			],
+			[
+				"wrapp",
+				"wrapper-33"
+			],
+			[
+				"for",
+				"form-field-wrapper"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bold",
+				"boldFont"
+			],
+			[
+				"nav",
+				"navGrey"
+			],
+			[
+				"med",
+				"medBrown"
+			],
+			[
+				"dark",
+				"darkBrown"
+			],
+			[
+				"gr",
+				"grey"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"o",
+				"option	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"container",
+				"containerWidth"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"gree",
+				"green"
+			],
+			[
+				"g",
+				"greenGrey"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"tag",
+				"tagGrey"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"blue",
+				"blueGreen"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"block",
+				"block-image"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"Hi",
+				"highDPI"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"PADDING",
+				"padding-bottom"
+			],
+			[
+				"MARGIN",
+				"margin-bottom"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"i",
+				"img	Tag"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"robo",
+				"robotobold"
+			],
+			[
+				"hi",
+				"highDPI"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"dar",
+				"darkBeige"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"green",
+				"green-button"
+			],
+			[
+				"head",
+				"headingFont"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"check",
+				"checkboxes"
+			],
+			[
+				"chec",
+				"checkboxes"
+			],
+			[
+				"backgroun",
+				"background-repeat"
+			],
+			[
+				"bue",
+				"blueGrey"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"pa",
+				"paleBlue"
+			],
+			[
+				"sky",
+				"skyBlue"
+			],
+			[
+				"Green",
+				"blueGreen"
+			],
+			[
+				"fff",
+				"ffffff"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"noe",
+				"no-repeat"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"s",
+				"secondaryFont"
+			],
+			[
+				"wr",
+				"wrapper-25"
+			],
+			[
+				"arrow",
+				"arrow-left"
+			],
+			[
+				"de",
+				"desktop"
+			],
+			[
+				"int",
+				"intro-text"
+			],
+			[
+				"la",
+				"last-child"
+			],
+			[
+				"booking",
+				"booking-plane"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"off",
+				"offWhite"
+			],
+			[
+				"ter",
+				"tertiaryFont"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"main",
+				"mainMenu"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"light",
+				"lightBrown"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"set",
+				"setSpacing"
+			],
+			[
+				"margn",
+				"margin"
+			],
+			[
+				"sect",
+				"sectionBreak"
+			],
+			[
+				"pu",
+				"puzzleHeight"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pr",
+				"primaryFont"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"tex-",
+				"text-decoration"
+			],
+			[
+				"exper",
+				"expertLocation"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"list-",
+				"list-style-image"
+			],
+			[
+				"backgrond",
+				"background-position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/_footer.erb",
+			"settings":
+			{
+				"buffer_size": 1154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/_header.erb",
+			"settings":
+			{
+				"buffer_size": 4615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 3128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/producing.html.erb",
+			"settings":
+			{
+				"buffer_size": 12487,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/profile.html.erb",
+			"settings":
+			{
+				"buffer_size": 9997,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/works.html.erb",
+			"settings":
+			{
+				"buffer_size": 9563,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/assets/css/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 3496,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/assets/css/jquery.bxslider.scss",
+			"settings":
+			{
+				"buffer_size": 4391,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/assets/css/_css.scss",
+			"settings":
+			{
+				"buffer_size": 4469,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/assets/css/_menu.scss",
+			"settings":
+			{
+				"buffer_size": 3614,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/assets/css/_reset.scss",
+			"settings":
+			{
+				"buffer_size": 3591,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/assets/css/_framework.scss",
+			"settings":
+			{
+				"buffer_size": 4236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/assets/scripts/custom.js",
+			"settings":
+			{
+				"buffer_size": 2380,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"intal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/_Development/taz/source/assets/scripts/custom.js",
+		"/C/_Development/taz/source/assets/css/jquery.bxslider.scss",
+		"/C/_Development/responsiveMenu/assets/css/menuChildren.css",
+		"/C/_Development/responsiveMenu/assets/scripts/menu.js",
+		"/C/_Development/responsiveMenu/assets/scripts/menu.min.js",
+		"/C/_Development/taz/source/assets/css/_framework.scss",
+		"/C/_Development/taz/source/works.html",
+		"/C/_Development/taz/source/assets/css/styles.scss",
+		"/C/_Development/taz/source/assets/css/_menu.scss",
+		"/C/Users/Helen/Downloads/jquery.bxslider/jquery.bxslider.css",
+		"/C/Users/Helen/Downloads/PhotoSwipe-master/PhotoSwipe-master/website/index.html",
+		"/C/_Development/responsiveMenu/demo.html",
+		"/C/_Development/taz/source/assets/css/ie.scss",
+		"/C/_Development/taz/Website/00 Homepage/Homepage text.rtf",
+		"/C/_Development/taz/Website/Website notes.rtf",
+		"/C/_Development/taz/.gitignore",
+		"/C/_Development/topArcSVGinverse.svg",
+		"/C/_Development/hihi/html/source/index.html.erb",
+		"/C/_Development/hihi/html/source/assets/css/_css.scss",
+		"/C/_Development/hihi/html/source/assets/scripts/jquery-sequencer.js",
+		"/C/_Development/Investec/html/source/assets/images/topArcSVG.svg",
+		"/C/_Development/hihi/html/source/_footer.erb",
+		"/C/_Development/hihi/html/source/assets/scripts/custom.js",
+		"/C/_Development/AirPartner2/html/source/_quote-block.erb",
+		"/C/_Development/AirPartner2/html/source/_grid-2.erb",
+		"/C/_Development/AirPartner2/html/build/assets/css/ie.css",
+		"/C/_Development/AirPartner2/html/build/assets/css/styles.css",
+		"/C/_Development/AirPartner2/html/source/_sector-hero.erb",
+		"/C/_Development/AirPartner2/html/source/_related-sectors.erb",
+		"/C/_Development/AirPartner2/html/source/freight.html.erb",
+		"/C/_Development/AirPartner2/html/source/_subpage-hero.erb",
+		"/C/_Development/AirPartner2/html/source/aircraft-guide.html.erb",
+		"/C/_Development/AirPartner2/html/source/aircraft-model.html.erb",
+		"/C/_Development/AirPartner2/html/source/aircraft-category.html.erb",
+		"/C/_Development/AirPartner2/html/source/blog.html.erb",
+		"/C/_Development/AirPartner2/html/source/_image-right-header-button.erb",
+		"/C/_Development/AirPartner2/html/source/_image-left-header-button.erb",
+		"/C/_Development/AirPartner2/html/config.rb",
+		"/C/_Development/AirPartner2/html/source/article.html.erb",
+		"/C/_Development/AirPartner2/html/source/_image-banner.erb",
+		"/C/_Development/AirPartner2/html/source/about.html.erb",
+		"/C/_Development/AirPartner2/html/source/_demo-request.erb",
+		"/C/_Development/AirPartner2/html/source/hire-a-jet.html.erb",
+		"/C/_Development/AirPartner2/html/source/_choose-uneven.erb",
+		"/C/_Development/AirPartner2/html/source/index.html.erb",
+		"/C/_Development/AirPartner2/html/source/_aircraft-models.erb",
+		"/C/_Development/AirPartner2/html/source/_2-image-text.erb",
+		"/C/_Development/AirPartner2/html/source/_image-right.erb",
+		"/C/_Development/AirPartner2/html/source/_image-left.erb",
+		"/C/_Development/AirPartner2/html/source/_grid-4.erb",
+		"/C/_Development/AirPartner2/html/source/Assets/CSS/compiled-css.css",
+		"/C/_Development/AirPartner2/html/source/_puzzle.erb",
+		"/C/_Development/AirPartner2/html/source/_choose.erb",
+		"/C/_Development/AirPartner2/html/source/_reasons.erb",
+		"/C/_Development/AirPartner2/html/source/Assets/CSS/_menuChildren.scss",
+		"/C/_Development/AirPartner2/html/source/Assets/CSS/ie.scss",
+		"/C/_Development/AirPartner2/html/source/Assets/CSS/_ieMenuChildren.scss",
+		"/C/_Development/AirPartner2/html/source/Assets/CSS/_ieMenu.scss",
+		"/C/_Development/AirPartner2/html/source/assets/css/_css.scss.orig",
+		"/C/_Development/AirPartner2/html/source/assets/css/_ieMenuChildren.scss",
+		"/C/_Development/AirPartner2/html/source/assets/css/_menu.scss",
+		"/C/_Development/AirPartner2/html/source/_home-hero.erb",
+		"/C/_Development/AirPartner2/html/source/_image-above-text.erb",
+		"/C/_Development/AirPartner2/html/source/_jetcard-banner.erb",
+		"/C/_Development/AirPartner2/html/source/_sector-intro.erb",
+		"/C/_Development/AirPartner2/html/source/Assets/CSS/_reset.scss",
+		"/C/_Development/AirPartner2/html/source/assets/css/_variables.scss",
+		"/C/_Development/AirPartner2/html/source/assets/css/compiled-ie.css",
+		"/C/_Development/AirPartner2/html/source/assets/scripts/jquery.bxslider.min.js",
+		"/C/_Development/AirPartner2/html/source/assets/scripts/modernizr-2.8.3.min.js",
+		"/C/_Development/Investec/html/source/_header.erb",
+		"/C/_Development/AirPartner2/html/source/Assets/CSS/styles.scss",
+		"/C/_Development/AirPartner2/html/source/_hr.erb",
+		"/C/_Development/AirPartner2/html/source/_header.erb",
+		"/C/_Development/AirPartner2/html/source/assets/css/_css.scss",
+		"/C/_Development/AirPartner2/html/source/assets/scripts/custom.js",
+		"/C/_Development/AirPartner2/html/SublimeProject.sublime-project",
+		"/C/Users/HelenBrockelbank/.gitconfig",
+		"/C/_Development/ciras-rebuild/html/source/non-member.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/article-video.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/blog.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/article-podcast.html.erb",
+		"/C/_Development/ciras-rebuild/html/config.rb",
+		"/C/_Development/ciras-rebuild/html/build/assets/css/styles.css",
+		"/C/_Development/responsiveSassBoilerplate/config.rb",
+		"/C/_Development/ciras-rebuild/html/.gitignore",
+		"/C/_Development/ciras-rebuild/html/Gemfile",
+		"/C/_Development/responsiveSassBoilerplate/build/assets/css/styles.css",
+		"/C/_Development/ciras-rebuild/html/source/assets/css/_framework.scss",
+		"/C/_Development/ciras-rebuild/html/build/assets/css/ie.css",
+		"/C/_Development/ciras-rebuild/html/source/assets/css/_variables.scss",
+		"/C/_Development/ciras-rebuild/html/source/assets/css/_css.scss",
+		"/C/_Development/ciras-rebuild/html/source/assets/css/jquerybxslider.scss",
+		"/C/_Development/ciras-rebuild/html/source/assets/scripts/custom.js",
+		"/C/_Development/ciras-rebuild/html/source/assets/css/menu.scss",
+		"/C/_Development/ciras-rebuild/html/source/membership.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/report-member.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/become-member.html.erb",
+		"/C/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/error.rb",
+		"/C/_Development/ciras-rebuild/html/source/index.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/become-rep.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/form.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/report.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/assets/css/ie.scss",
+		"/C/_Development/ciras-rebuild/html/source/report-non-member.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/_login.erb",
+		"/C/_Development/ciras-rebuild/html/source/_about.erb",
+		"/C/_Development/ciras-rebuild/html/source/article.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/reporting-process.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/_vertical-3-block.erb",
+		"/C/_Development/NeilsonPIUPIN/PackItUpSite/PackItUp/assets/scripts/custom.js",
+		"/C/_Development/ciras-rebuild/html/source/masonry.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/_carousel.erb",
+		"/C/_Development/ciras-rebuild/html/source/about.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/demo.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/_header.erb",
+		"/C/_Development/responsiveSassBP/source/_header.erb",
+		"/C/_Development/ciras-rebuild/html/source/events.html.erb",
+		"/C/Users/helenbrockelbank/Documents/Slack Presentation/index.html",
+		"/C/Users/helenbrockelbank/Documents/Slack Presentation/index(2).html",
+		"/C/_Development/ciras-rebuild/html/source/_quotes.erb",
+		"/C/Users/helenbrockelbank/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/helenbrockelbank/Downloads/RobotoFontSquirrel/stylesheet.css",
+		"/C/Users/helenbrockelbank/Downloads/Cheeky Web fonts/Cheeky Web fonts/MyFontsWebfontsKit.css",
+		"/C/_Development/ciras-rebuild/html/source/blog.erb.html",
+		"/C/_Development/ciras-rebuild/html/source/homepage.html.erb",
+		"/C/_Development/ciras-rebuild/html/source/_33-block.erb",
+		"/C/_Development/ciras-rebuild/html/source/assets/css/jquery.bxslider.scss"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\_Development\\AirPartner2\\html\\source",
+			"C:\\_Development\\ciras-rebuild\\html\\source",
+			"C:\\_Development\\AirPartner2\\html\\source"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"bx-wrapper im",
+			"capt",
+			"alt=",
+			"full st",
+			" >",
+			"}\n",
+			"	\n",
+			"padded",
+			"20px",
+			"nbsp",
+			"fragments",
+			"putnamJoy",
+			"<img src=\"producing/01Lazarus.jpg\" alt=\"Lazarus\" />",
+			"images",
+			"•	",
+			"putnamJoy",
+			"redshoes",
+			"article",
+			";\n",
+			"images/",
+			"<a href=\"#\">",
+			"</a>",
+			"	•	",
+			"#efefef",
+			"#020202",
+			"5",
+			"\n     left: 77%;",
+			"fonts",
+			"../images",
+			"fonts",
+			"%>\n",
+			"/globalassets",
+			"/globalassets/",
+			"http://www.airpartner.com/Images/en-GB/Private-Jet/Aircraft_Guide_PJ/aircraft_guide_private.jpg",
+			"http://www.airpartner.com/Images/en-GB/Private-Jet/Aircraft_Guide_PJ/Light%20Jets/Cessna%20Citation%20Bravo%20Gallery/AG_PJ_cessna-citation-bravo_176x110.jpg",
+			"button",
+			"<h3>Jetcard Vs Netjets</h3>",
+			"all-planes",
+			"css/",
+			"../../assets/css",
+			"prog",
+			"CSS",
+			"Assets",
+			"%;\n",
+			"}\n",
+			";\n",
+			"padding",
+			"@font-face",
+			"clickdform",
+			"height",
+			"assets",
+			"PNG",
+			"video-container",
+			"video",
+			"with-e",
+			"tags",
+			"arrow",
+			"background: trans",
+			"padding: 10px 3px 10px 8px;",
+			"nav ",
+			"body:before {",
+			"top: 165px;",
+			"with-",
+			".red-button",
+			"blue-button",
+			"»",
+			".right",
+			"menuTitle",
+			"height",
+			"			</",
+			"phone",
+			"button",
+			"no-f",
+			"bottom",
+			";\n",
+			"pdf",
+			"icon",
+			"date",
+			"stat",
+			"dt",
+			"with-e",
+			"green-button",
+			"button",
+			"h4",
+			"\">*",
+			".paleBlue",
+			"paleBlue",
+			"green-button ",
+			"button",
+			"red-button",
+			"form ",
+			"Roboto",
+			"font-family: $headingFont;",
+			"form",
+			"with",
+			"h1",
+			"}\n",
+			"slide-top",
+			"wrapper-100",
+			"membership",
+			"member",
+			"red-button",
+			"*",
+			"blue-bg",
+			"blue-bg ",
+			"	//",
+			"></",
+			"button",
+			">\n",
+			"centre-block ",
+			"#",
+			";}",
+			"minor-signpost",
+			";\n",
+			">\n",
+			"h4",
+			"       <p>Passengers: 4</p>\n          <p>Aircraft include:\nHawker 400XP, Citation Bravo, Citation CJ2, Citation CJ3, Learjet 31A, Learjet 40, Premier 1, Phenom 300</p>",
+			"<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla erat at mauris dignissim pulvinar. Sed eu suscipit metus. Pellentesque non leo a felis imperdiet suscipit eget tincidunt arcu.</span>",
+			"  <p>\n                </p>",
+			"<p></p>",
+			"    <p>\n                </p>",
+			"wrapper-33",
+			">\n",
+			";\n",
+			"extend",
+			"<p class=\"date\">2 Dec 2015</p>\n							<h3>Jetcard Vs Netjets</h3>",
+			"href=\"sector.html\"",
+			"class=\"button\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"title=",
+			"workshops",
+			"crafting",
+			"<img src=\"assets/images/producing/01Lazarus.jpg\" alt=\"Lazarus\" />",
+			"<li>",
+			"",
+			"screen",
+			"putnamJoy",
+			"fragments",
+			"div",
+			"../images/",
+			"",
+			"<li>",
+			"$offWhite",
+			"$black",
+			"black",
+			"../../Assets/CSS/fonts",
+			"../../Assets/images",
+			"../../Assets/CSS/fonts",
+			"http://www.airpartner.com/globalassets",
+			"assets/images/",
+			"http://www.airpartner.com/contentassets/3724e8c316284a03a62a96ff9b3c1bbf/smallcj_dornier-328-jet-exterior.jpg",
+			"http://www.airpartner.com/contentassets/66ca076f603b4b2c97e4afae759d3715/e145---exterior-resized.jpg",
+			"<a href=\"article.html\"><h3 class=\"minor-signpost\">Jetcard Vs Netjets</h3></a>",
+			"",
+			"css",
+			"assets",
+			"Assets",
+			"video-wrapper",
+			"&raquo;",
+			"width",
+			"h4",
+			"fonts/Roboto",
+			"@include headingFont();",
+			"button small",
+			"button small\n        <p><strong>Aircraft include:</strong>\nHawker 400XP, Citation Bravo, Citation CJ2, Citation CJ3, Learjet 31A, Learjet 40, Premier 1, Phenom 300</p>",
+			"dt\n        <p><strong>Aircraft include:</strong>\nHawker 400XP, Citation Bravo, Citation CJ2, Citation CJ3, Learjet 31A, Learjet 40, Premier 1, Phenom 300</p>",
+			" <p><strong>Passengers:</strong> 4</p>\n        <p><strong>Aircraft include:</strong>\nHawker 400XP, Citation Bravo, Citation CJ2, Citation CJ3, Learjet 31A, Learjet 40, Premier 1, Phenom 300</p>",
+			"Aircraft include:\nHawker 400XP, Citation Bravo, Citation CJ2, Citation CJ3, Learjet 31A, Learjet 40, Premier 1, Phenom 300",
+			"",
+			"wrapper-50",
+			"<h3>Jetcard Vs Netjets</h3>\n							<p class=\"date\">2 Dec 2015</p>",
+			"href=\"#\"",
+			"class=\"button small\"",
+			".rich-table",
+			"",
+			"dark",
+			"assets/",
+			"phone",
+			"email",
+			"last",
+			"<li>",
+			"div",
+			"",
+			"</a></li>",
+			"<li><a href=\"#\">",
+			"</a></li>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/_footer.erb",
+					"settings":
+					{
+						"buffer_size": 1154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								695,
+								695
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/_header.erb",
+					"settings":
+					{
+						"buffer_size": 4615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3883,
+								3883
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1244.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 3128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2817,
+								2817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/producing.html.erb",
+					"settings":
+					{
+						"buffer_size": 12487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2169,
+								2169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/profile.html.erb",
+					"settings":
+					{
+						"buffer_size": 9997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9117,
+								9119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3674.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "source/works.html.erb",
+					"settings":
+					{
+						"buffer_size": 9563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3758,
+								3758
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+<<<<<<< HEAD
+						"translation.y": 780.0,
+=======
+						"translation.y": 1320.0,
+>>>>>>> 83b5d67b9213016af63bb92024e609a1cdd59c7e
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+<<<<<<< HEAD
+			"selected": 5,
+=======
+			"selected": 1,
+>>>>>>> 83b5d67b9213016af63bb92024e609a1cdd59c7e
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "source/assets/css/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 3496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1887,
+								1887
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1320.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "source/assets/css/jquery.bxslider.scss",
+					"settings":
+					{
+						"buffer_size": 4391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4267,
+								4267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4034.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "source/assets/css/_css.scss",
+					"settings":
+					{
+						"buffer_size": 4469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3435,
+								3435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4654.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "source/assets/css/_menu.scss",
+					"settings":
+					{
+						"buffer_size": 3614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2320,
+								2341
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2167.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "source/assets/css/_reset.scss",
+					"settings":
+					{
+						"buffer_size": 3591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "source/assets/css/_framework.scss",
+					"settings":
+					{
+						"buffer_size": 4236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "source/assets/scripts/custom.js",
+					"settings":
+					{
+						"buffer_size": 2380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 960.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+<<<<<<< HEAD
+			0.61812321426,
+=======
+			0.285013744818,
+>>>>>>> 83b5d67b9213016af63bb92024e609a1cdd59c7e
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"assets/css/styles.css"
+			],
+			[
+				"inde",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true
+}
