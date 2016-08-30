@@ -45,7 +45,8 @@
   box-shadow: 0 0 5px #ccc;
   border: 5px solid #fff;
   background: #fff;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin-bottom: 60px; }
 
 /* LOADER */
 .bx-wrapper .bx-loading {
@@ -180,9 +181,11 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666666 \9;
-  background: rgba(80, 80, 80, 0.75);
-  width: 100%; }
+  background: none;
+  background: rgba(80, 80, 80, 0);
+  width: 100%;
+  text-align: center;
+  font-style: italic; }
 
 .bx-wrapper .bx-caption span {
   color: #fff;

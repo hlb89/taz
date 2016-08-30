@@ -524,6 +524,14 @@
 			}
 		},
 		{
+			"file": "source/assets/css/jquery.bxslider.scss",
+			"settings":
+			{
+				"buffer_size": 4391,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "source/assets/css/_css.scss",
 			"settings":
 			{
@@ -552,14 +560,6 @@
 			"settings":
 			{
 				"buffer_size": 4236,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/assets/scripts/custom.js",
-			"settings":
-			{
-				"buffer_size": 2380,
 				"line_ending": "Unix"
 			}
 		}
@@ -600,8 +600,8 @@
 	},
 	"file_history":
 	[
-		"/C/_Development/taz/source/assets/css/jquery.bxslider.scss",
 		"/C/_Development/taz/source/assets/scripts/custom.js",
+		"/C/_Development/taz/source/assets/css/jquery.bxslider.scss",
 		"/C/_Development/responsiveMenu/assets/css/menuChildren.css",
 		"/C/_Development/responsiveMenu/assets/scripts/menu.js",
 		"/C/_Development/responsiveMenu/assets/scripts/menu.min.js",
@@ -748,6 +748,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"bx-wrapper im",
 			"capt",
 			"alt=",
 			"full st",
@@ -874,8 +875,7 @@
 			"extend",
 			"<p class=\"date\">2 Dec 2015</p>\n							<h3>Jetcard Vs Netjets</h3>",
 			"href=\"sector.html\"",
-			"class=\"button\"",
-			"table "
+			"class=\"button\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -950,7 +950,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -965,8 +965,8 @@
 						"selection":
 						[
 							[
-								1052,
-								1052
+								695,
+								695
 							]
 						],
 						"settings":
@@ -1111,7 +1111,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 780.0,
+						"translation.y": 1320.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1119,7 +1119,7 @@
 			]
 		},
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1152,6 +1152,33 @@
 				},
 				{
 					"buffer": 7,
+					"file": "source/assets/css/jquery.bxslider.scss",
+					"settings":
+					{
+						"buffer_size": 4391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4267,
+								4267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4034.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "source/assets/css/_css.scss",
 					"settings":
 					{
@@ -1178,7 +1205,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "source/assets/css/_menu.scss",
 					"settings":
 					{
@@ -1205,7 +1232,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "source/assets/css/_reset.scss",
 					"settings":
 					{
@@ -1231,7 +1258,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "source/assets/css/_framework.scss",
 					"settings":
 					{
@@ -1253,32 +1280,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 420.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "source/assets/scripts/custom.js",
-					"settings":
-					{
-						"buffer_size": 2380,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 960.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1314,7 +1315,7 @@
 		"cols":
 		[
 			0.0,
-			0.61812321426,
+			0.285013744818,
 			1.0
 		],
 		"rows":
