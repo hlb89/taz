@@ -554,6 +554,14 @@
 				"buffer_size": 4236,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "source/assets/scripts/custom.js",
+			"settings":
+			{
+				"buffer_size": 2380,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -1103,7 +1111,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1500.0,
+						"translation.y": 780.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1111,7 +1119,7 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1248,6 +1256,32 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "source/assets/scripts/custom.js",
+					"settings":
+					{
+						"buffer_size": 2380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 960.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -1280,7 +1314,7 @@
 		"cols":
 		[
 			0.0,
-			0.734980165234,
+			0.61812321426,
 			1.0
 		],
 		"rows":
